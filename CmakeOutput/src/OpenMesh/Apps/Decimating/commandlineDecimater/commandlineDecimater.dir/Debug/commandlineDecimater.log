@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/User/Desktop/OpenMesh-8.1/OpenMesh-8.1/src/OpenMesh/Apps/Decimating/commandlineDecimater/CMakeLists.txt
+  decimater.cc
+C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh/Tools/Decimater/ModRoundnessT.hh : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  commandlineDecimater.vcxproj -> C:\Users\User\Desktop\CmakeOutput\src\OpenMesh\Apps\Decimating\commandlineDecimater\Debug\commandlineDecimater.exe

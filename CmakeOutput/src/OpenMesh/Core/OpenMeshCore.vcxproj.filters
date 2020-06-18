@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\BinaryHelper.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\IOManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\OMFormat.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\reader\BaseReader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\reader\OBJReader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\reader\OFFReader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\reader\OMReader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\reader\PLYReader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\reader\STLReader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\writer\BaseWriter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\writer\OBJWriter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\writer\OFFWriter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\writer\OMWriter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\writer\PLYWriter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\writer\STLWriter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\writer\VTKWriter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\ArrayKernel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\BaseKernel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\PolyConnectivity.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\SmartHandles.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\TriConnectivity.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\System\omstream.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Utils\BaseProperty.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Utils\Endian.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Utils\RandomNumberGenerator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Geometry\Config.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Geometry\EigenVectorT.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Geometry\LoopSchemeMaskT.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Geometry\MathDefs.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Geometry\NormalConeT.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Geometry\NormalConeT_impl.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Geometry\Plane3d.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Geometry\QuadricT.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Geometry\Vector11T.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Geometry\VectorT.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Geometry\VectorT_inc.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\BinaryHelper.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\IOInstances.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\IOManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\MeshIO.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\OFFFormat.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\OMFormat.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\OMFormatT_impl.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\Options.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\SR_binary.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\SR_binary_spec.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\SR_rbo.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\SR_store.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\SR_types.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\StoreRestore.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\exporter\BaseExporter.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\exporter\ExporterT.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\importer\BaseImporter.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\importer\ImporterT.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\reader\BaseReader.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\reader\OBJReader.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\reader\OFFReader.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\reader\OMReader.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\reader\PLYReader.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\reader\STLReader.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\writer\BaseWriter.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\writer\OBJWriter.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\writer\OFFWriter.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\writer\OMWriter.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\writer\PLYWriter.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\writer\STLWriter.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\IO\writer\VTKWriter.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\ArrayItems.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\ArrayKernel.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\ArrayKernelT_impl.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\AttribKernelT.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\Attributes.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\BaseKernel.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\BaseMesh.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\Casts.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\CirculatorsT.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\DefaultPolyMesh.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\DefaultTriMesh.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\FinalMeshItemsT.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\Handles.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\IteratorsT.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\PolyConnectivity.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\PolyConnectivity_inline_impl.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\PolyMeshT.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\PolyMeshT_impl.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\PolyMesh_ArrayKernelT.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\SmartHandles.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\SmartRange.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\Status.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\Tags.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\Traits.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\TriConnectivity.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\TriMeshT.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\TriMeshT_impl.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\TriMesh_ArrayKernelT.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\gen\circulators_header.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\gen\circulators_template.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\gen\footer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\gen\iterators_header.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Mesh\gen\iterators_template.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\System\OpenMeshDLLMacros.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\System\compiler.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\System\config.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\System\mostream.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\System\omstream.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Utils\AutoPropertyHandleT.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Utils\BaseProperty.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Utils\Endian.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Utils\GenProg.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Utils\HandleToPropHandle.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Utils\Noncopyable.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Utils\Property.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Utils\PropertyContainer.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Utils\PropertyManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Utils\RandomNumberGenerator.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Utils\SingletonT.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Utils\SingletonT_impl.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Utils\color_cast.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Utils\typename.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Utils\vector_cast.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\Utils\vector_traits.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{73A1A186-B252-3E9C-BDAA-A84F0C0A81A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{71ED8957-4C51-38C8-9F7B-7D4DF5E477D0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Users/User/Desktop/OpenMesh-8.1/OpenMesh-8.1/cmake/ACGCommon.cmake
+C:/Users/User/Desktop/OpenMesh-8.1/OpenMesh-8.1/cmake/ACGCompiler.cmake
+C:/Users/User/Desktop/OpenMesh-8.1/OpenMesh-8.1/src/OpenMesh/Apps/CMakeLists.txt
+C:/Users/User/Desktop/cmake-3.18.0-rc1-win64-x64/share/cmake-3.18/Modules/AddFileDependencies.cmake
+C:/Users/User/Desktop/cmake-3.18.0-rc1-win64-x64/share/cmake-3.18/Modules/FindOpenGL.cmake
+C:/Users/User/Desktop/cmake-3.18.0-rc1-win64-x64/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake
+C:/Users/User/Desktop/cmake-3.18.0-rc1-win64-x64/share/cmake-3.18/Modules/FindPackageMessage.cmake

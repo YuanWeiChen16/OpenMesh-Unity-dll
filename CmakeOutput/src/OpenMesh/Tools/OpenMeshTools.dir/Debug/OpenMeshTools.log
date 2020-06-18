@@ -1,0 +1,13 @@
+﻿  Building Custom Rule C:/Users/User/Desktop/OpenMesh-8.1/OpenMesh-8.1/src/OpenMesh/Tools/CMakeLists.txt
+  Observer.cc
+  Gnuplot.cc
+  Timer.cc
+  conio.cc
+  VFront.cc
+  VHierarchy.cc
+  VHierarchyNodeIndex.cc
+  VHierarchyWindow.cc
+  ViewingParameters.cc
+  正在產生程式碼...
+  getopt.c
+  OpenMeshTools.vcxproj -> C:\Users\User\Desktop\CmakeOutput\src\OpenMesh\Tools\Debug\OpenMeshToolsd.lib

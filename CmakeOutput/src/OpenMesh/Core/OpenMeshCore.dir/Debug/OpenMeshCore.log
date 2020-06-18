@@ -1,0 +1,30 @@
+﻿  Building Custom Rule C:/Users/User/Desktop/OpenMesh-8.1/OpenMesh-8.1/src/OpenMesh/Core/CMakeLists.txt
+  BinaryHelper.cc
+  IOManager.cc
+  OMFormat.cc
+  BaseReader.cc
+  OBJReader.cc
+  OFFReader.cc
+  OMReader.cc
+  PLYReader.cc
+  STLReader.cc
+  BaseWriter.cc
+  OBJWriter.cc
+  OFFWriter.cc
+  OMWriter.cc
+  PLYWriter.cc
+  STLWriter.cc
+  VTKWriter.cc
+  ArrayKernel.cc
+  BaseKernel.cc
+  PolyConnectivity.cc
+  SmartHandles.cc
+  正在產生程式碼...
+  正在編譯...
+  TriConnectivity.cc
+  omstream.cc
+  BaseProperty.cc
+  Endian.cc
+  RandomNumberGenerator.cc
+  正在產生程式碼...
+  OpenMeshCore.vcxproj -> C:\Users\User\Desktop\CmakeOutput\src\OpenMesh\Core\Debug\OpenMeshCored.lib

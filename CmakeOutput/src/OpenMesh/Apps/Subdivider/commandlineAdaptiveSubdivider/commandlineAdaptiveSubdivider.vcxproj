@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4FBF70BB-0062-3BB5-B499-1ED8469675FB}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>commandlineAdaptiveSubdivider</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\User\Desktop\CmakeOutput\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">commandlineAdaptiveSubdivider.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">commandlineAdaptiveSubdivider</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\User\Desktop\CmakeOutput\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">commandlineAdaptiveSubdivider.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">commandlineAdaptiveSubdivider</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\User\Desktop\CmakeOutput\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">commandlineAdaptiveSubdivider.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">commandlineAdaptiveSubdivider</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\User\Desktop\CmakeOutput\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">commandlineAdaptiveSubdivider.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">commandlineAdaptiveSubdivider</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider\..\..\..\..;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\..\..;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Tools\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;INCLUDE_TEMPLATES;_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;INCLUDE_TEMPLATES;_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider\..\..\..\..;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\..\..;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Tools\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider\..\..\..\..;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\..\..;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Tools\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Users\User\Desktop\cmake-3.18.0-rc1-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/User/Desktop/CmakeOutput/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/Debug/commandlineAdaptiveSubdivider.exe C:/Users/User/Desktop/CmakeOutput/Build/./commandlineAdaptiveSubdivider.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\..\Core\Debug\OpenMeshCored.lib;..\..\..\Tools\Debug\OpenMeshToolsd.lib;..\..\..\Core\Debug\OpenMeshCored.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/User/Desktop/CmakeOutput/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/Debug/commandlineAdaptiveSubdivider.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <ProgramDataBaseFile>C:/Users/User/Desktop/CmakeOutput/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/Debug/commandlineAdaptiveSubdivider.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider\..\..\..\..;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\..\..;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Tools\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;INCLUDE_TEMPLATES;_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;INCLUDE_TEMPLATES;_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider\..\..\..\..;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\..\..;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Tools\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider\..\..\..\..;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\..\..;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Tools\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Users\User\Desktop\cmake-3.18.0-rc1-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/User/Desktop/CmakeOutput/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/Release/commandlineAdaptiveSubdivider.exe C:/Users/User/Desktop/CmakeOutput/Build/./commandlineAdaptiveSubdivider.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\..\Core\Release\OpenMeshCore.lib;..\..\..\Tools\Release\OpenMeshTools.lib;..\..\..\Core\Release\OpenMeshCore.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/User/Desktop/CmakeOutput/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/Release/commandlineAdaptiveSubdivider.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <ProgramDataBaseFile>C:/Users/User/Desktop/CmakeOutput/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/Release/commandlineAdaptiveSubdivider.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider\..\..\..\..;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\..\..;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Tools\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;INCLUDE_TEMPLATES;_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;INCLUDE_TEMPLATES;_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider\..\..\..\..;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\..\..;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Tools\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider\..\..\..\..;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\..\..;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Tools\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Users\User\Desktop\cmake-3.18.0-rc1-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/User/Desktop/CmakeOutput/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/MinSizeRel/commandlineAdaptiveSubdivider.exe C:/Users/User/Desktop/CmakeOutput/Build/./commandlineAdaptiveSubdivider.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\..\Core\MinSizeRel\OpenMeshCore.lib;..\..\..\Tools\MinSizeRel\OpenMeshTools.lib;..\..\..\Core\MinSizeRel\OpenMeshCore.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/User/Desktop/CmakeOutput/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/MinSizeRel/commandlineAdaptiveSubdivider.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <ProgramDataBaseFile>C:/Users/User/Desktop/CmakeOutput/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/MinSizeRel/commandlineAdaptiveSubdivider.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider\..\..\..\..;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\..\..;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Tools\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;INCLUDE_TEMPLATES;_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;INCLUDE_TEMPLATES;_USE_MATH_DEFINES;NOMINMAX;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider\..\..\..\..;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\..\..;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Tools\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider\..\..\..\..;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Core\..\..;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Tools\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Users\User\Desktop\cmake-3.18.0-rc1-win64-x64\bin\cmake.exe -E copy_if_different C:/Users/User/Desktop/CmakeOutput/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/RelWithDebInfo/commandlineAdaptiveSubdivider.exe C:/Users/User/Desktop/CmakeOutput/Build/./commandlineAdaptiveSubdivider.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\..\Core\RelWithDebInfo\OpenMeshCore.lib;..\..\..\Tools\RelWithDebInfo\OpenMeshTools.lib;..\..\..\Core\RelWithDebInfo\OpenMeshCore.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/User/Desktop/CmakeOutput/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/RelWithDebInfo/commandlineAdaptiveSubdivider.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <ProgramDataBaseFile>C:/Users/User/Desktop/CmakeOutput/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/RelWithDebInfo/commandlineAdaptiveSubdivider.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/User/Desktop/OpenMesh-8.1/OpenMesh-8.1/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\User\Desktop\cmake-3.18.0-rc1-win64-x64\bin\cmake.exe -SC:/Users/User/Desktop/OpenMesh-8.1/OpenMesh-8.1 -BC:/Users/User/Desktop/CmakeOutput --check-stamp-file C:/Users/User/Desktop/CmakeOutput/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\cmake\ACGCommon.cmake;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\cmake\ACGCompiler.cmake;C:\Users\User\Desktop\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\AddFileDependencies.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\User\Desktop\CmakeOutput\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/User/Desktop/OpenMesh-8.1/OpenMesh-8.1/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\User\Desktop\cmake-3.18.0-rc1-win64-x64\bin\cmake.exe -SC:/Users/User/Desktop/OpenMesh-8.1/OpenMesh-8.1 -BC:/Users/User/Desktop/CmakeOutput --check-stamp-file C:/Users/User/Desktop/CmakeOutput/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\cmake\ACGCommon.cmake;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\cmake\ACGCompiler.cmake;C:\Users\User\Desktop\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\AddFileDependencies.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\User\Desktop\CmakeOutput\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/User/Desktop/OpenMesh-8.1/OpenMesh-8.1/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\User\Desktop\cmake-3.18.0-rc1-win64-x64\bin\cmake.exe -SC:/Users/User/Desktop/OpenMesh-8.1/OpenMesh-8.1 -BC:/Users/User/Desktop/CmakeOutput --check-stamp-file C:/Users/User/Desktop/CmakeOutput/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\cmake\ACGCommon.cmake;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\cmake\ACGCompiler.cmake;C:\Users\User\Desktop\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\AddFileDependencies.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\User\Desktop\CmakeOutput\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/User/Desktop/OpenMesh-8.1/OpenMesh-8.1/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\User\Desktop\cmake-3.18.0-rc1-win64-x64\bin\cmake.exe -SC:/Users/User/Desktop/OpenMesh-8.1/OpenMesh-8.1 -BC:/Users/User/Desktop/CmakeOutput --check-stamp-file C:/Users/User/Desktop/CmakeOutput/src/OpenMesh/Apps/Subdivider/commandlineAdaptiveSubdivider/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\cmake\ACGCommon.cmake;C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\cmake\ACGCompiler.cmake;C:\Users\User\Desktop\cmake-3.18.0-rc1-win64-x64\share\cmake-3.18\Modules\AddFileDependencies.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\User\Desktop\CmakeOutput\src\OpenMesh\Apps\Subdivider\commandlineAdaptiveSubdivider\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\User\Desktop\OpenMesh-8.1\OpenMesh-8.1\src\OpenMesh\Apps\Subdivider\adaptive_subdivider.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\User\Desktop\CmakeOutput\ZERO_CHECK.vcxproj">
+      <Project>{B911243C-95FC-3B56-960A-156770BE8164}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Desktop\CmakeOutput\src\OpenMesh\Core\OpenMeshCore.vcxproj">
+      <Project>{C80C0547-75DD-3A50-A857-ACA97A9A5AE7}</Project>
+      <Name>OpenMeshCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Desktop\CmakeOutput\src\OpenMesh\Tools\OpenMeshTools.vcxproj">
+      <Project>{AF496D8B-F89F-34A1-ADEB-AD639324FCF5}</Project>
+      <Name>OpenMeshTools</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
