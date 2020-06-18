@@ -26,7 +26,7 @@ int  NotHappyMesh(void)
 bool InitOpenMeshModel()
 {
 	//string dest = fileName;
-	return ThisMesh.Init("UnionSphere.obj");
+	return ThisMesh.Init("./model/UnionSphere.obj");
 }
 
 
