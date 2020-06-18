@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+  Dll1.cpp
+c:\users\user\desktop\openmeshdll\openmesh-unity-dll\dll1_visualstudio\dll1\dll1.cpp(14): warning C4244: 'return': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  dllmain.cpp
+  正在產生程式碼...
+  Dll1.vcxproj -> C:\Users\user\Desktop\openmeshdll\OpenMesh-Unity-dll\Dll1_visualstudio\Debug\Dll1.dll
