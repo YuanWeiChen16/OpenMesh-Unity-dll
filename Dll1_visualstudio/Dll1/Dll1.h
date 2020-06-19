@@ -19,7 +19,7 @@ using namespace std;
 
 extern "C" _declspec(dllexport)  int happyMesh(int a, float b, int c);
 extern "C" _declspec(dllexport)  int  NotHappyMesh(void);
-extern "C" _declspec(dllexport) bool InitOpenMeshModel();
+extern "C" _declspec(dllexport) bool InitOpenMeshModel(char*);
 extern "C" _declspec(dllexport)  int OpenMeshModel_returnPoint(void);
 
 typedef OpenMesh::TriMesh_ArrayKernelT<> TriMesh;

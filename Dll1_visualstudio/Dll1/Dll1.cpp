@@ -23,10 +23,10 @@ int  NotHappyMesh(void)
 }
 
 
-bool InitOpenMeshModel()
+bool InitOpenMeshModel(char* flieName)
 {
-	//string dest = fileName;
-	return ThisMesh.Init("./model/UnionSphere.obj");
+	string StringFN = flieName;
+	return ThisMesh.Init(StringFN);
 }
 
 

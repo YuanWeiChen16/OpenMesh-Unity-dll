@@ -10,8 +10,8 @@ public class dllTest : MonoBehaviour
     private static extern int happyMesh(int a, float b, int c);
     [DllImport("Dll1")]
     private static extern int NotHappyMesh();
-    [DllImport("Dll1")]
-    private static extern bool InitOpenMeshModel();
+    [DllImport("Dll1",CharSet = CharSet.Ansi)]
+    private static extern bool InitOpenMeshModel([MarshalAs(UnmanagedType.LPStr)]string fliename);
     [DllImport("Dll1")]
     private static extern int OpenMeshModel_returnPoint();
 
@@ -23,7 +23,7 @@ public class dllTest : MonoBehaviour
         Debug.Log(NotHappyMesh());
         Debug.Log(happyMesh(10, 10, 0));
         Debug.Log(NotHappyMesh());
-        Debug.Log(InitOpenMeshModel());
+        Debug.Log(InitOpenMeshModel("./model/UnionSphere.obj"));
         Debug.Log(OpenMeshModel_returnPoint());
 
     }
