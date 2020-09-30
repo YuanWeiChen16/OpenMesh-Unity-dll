@@ -10,7 +10,7 @@ open DLL1_visualstudio to modify dll copy dll file to DLLtest_unity to test it.
 download openmesh source code.
 
 ### step 2 
-use cmake to make VisualStudio format file.Configure selelct visualstudio version and **x64 platform** because unity is 64 bytes, and Generate. May have some error just ignore it.
+use cmake to make VisualStudio format file.Configure selelct Visual Studio version(I used Visual Studio 2017) and **x64 platform** because unity is 64 bytes, and Generate. May have some error just ignore it.
 ![](https://i.imgur.com/toBko9E.png)
 ![](https://i.imgur.com/6GYqGht.png)
 
